@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bitminer
+  labels:
+    app: bitminer
+spec:
+  containers:
+  - name: bitminer
+    image: bitminer:0.1
